@@ -142,7 +142,7 @@ ACDS_VERSION := 13.0sp1
 ELF := traffic_light_app.elf
 
 # Paths to C, C++, and assembly source files.
-C_SRCS :=
+C_SRCS := main.c
 CXX_SRCS :=
 ASM_SRCS :=
 
