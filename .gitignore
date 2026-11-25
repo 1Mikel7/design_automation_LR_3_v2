@@ -1,0 +1,33 @@
+# Временные файлы Quartus
+db/
+incremental_db/
+output_files/
+*.rpt
+*.summary
+*.smsg
+*.qws
+*.bak
+
+# Результаты сборки C
+*.elf
+*.objdump
+*.map
+*.o
+*.a
+
+# Временные файлы Eclipse
+.metadata/
+*.launch
+
+# Промежуточные файлы BSP и сборки
+software/*/obj/
+software/*/Debug/
+software/*/Release/
+software/*_bsp/HAL/
+software/*_bsp/drivers/
+software/*_bsp/alt_sys_init.c
+software/*_bsp/alt_sys_init.h
+software/*_bsp/system.h
+
+# Временные файлы редакторов
+.vscode/
